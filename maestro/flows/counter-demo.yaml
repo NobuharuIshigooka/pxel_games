@@ -1,0 +1,13 @@
+appId: host.exp.Exponent
+---
+- launchApp
+- tapOn: "expo_template"
+- tapOn: "Zustandカウンターデモを見る"
+- assertVisible: "Zustandデモ"
+- assertVisible: "カウンターデモ"
+- assertVisible: "現在の値"
+- assertVisible: "0"
+- assertVisible: "+1"
+- assertVisible: "-1"
+- assertVisible: "リセット"
+- assertVisible: "+5"

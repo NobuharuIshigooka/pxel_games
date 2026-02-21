@@ -1,0 +1,11 @@
+appId: host.exp.Exponent
+---
+- launchApp
+- tapOn: "expo_template"
+- assertVisible: "フォームデモ"
+- assertVisible: "サンプルフォーム"
+- assertVisible: "名前"
+- assertVisible: "メールアドレス"
+- assertVisible: "年齢"
+- assertVisible: "メッセージ"
+- assertVisible: "送信"
